@@ -10,7 +10,7 @@ var AllPaarl = function(string) {
 // Finding and printing the first one from paarl...
   for (item in array) {
     if (array[item].startsWith('CJ')) {
-      console.log(array[item]);
+      return array[item];
     }
   }
 }

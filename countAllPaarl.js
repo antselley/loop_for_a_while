@@ -15,7 +15,7 @@ var numFromPaarl = 0;
     }
   }
   console.log(numFromPaarl);
-  // console.log() can be removed if necessary! I like to have it in for now... 
+  // console.log() can be removed if necessary! I like to have it in for now...
   return numFromPaarl ;
 }
 

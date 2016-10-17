@@ -38,7 +38,7 @@ for (item in phoneList) {
     var totalCost = numCalls*callCost + numSmss*smsCost + numData*dataCost ;
     var totalRemaining = airtimeInitiallyAvailable - totalCost;
 
-    return Math.max(totalRemaining, 0)
+    return Math.max(totalRemaining.toFixed(2), 0)
 }
 
 assert.equal(enoughAirtime('call,call,call,data,sms,sms,call,data', 35), 1.98);
